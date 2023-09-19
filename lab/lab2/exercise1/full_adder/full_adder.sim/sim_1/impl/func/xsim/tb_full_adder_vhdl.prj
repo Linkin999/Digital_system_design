@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_full_adder_func_impl.vhd" \
+"../../../../../full_adder.srcs/sim_1/new/tb_full_adder.vhd" \
+
+# Do not sort compile order
+nosort

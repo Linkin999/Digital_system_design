@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../repetitive_addition_design.srcs/sources_1/new/repetitive_addition.vhd" \
+"../../../../repetitive_addition_design.srcs/sim_1/new/test_repetitive.vhd" \
+
+# Do not sort compile order
+nosort

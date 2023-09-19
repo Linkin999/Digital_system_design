@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_clk_demical_counter_func_impl.vhd" \
+"../../../../../three_digi decimal counter.srcs/sim_1/new/tb_clk_demical_counter.vhd" \
+
+# Do not sort compile order
+nosort

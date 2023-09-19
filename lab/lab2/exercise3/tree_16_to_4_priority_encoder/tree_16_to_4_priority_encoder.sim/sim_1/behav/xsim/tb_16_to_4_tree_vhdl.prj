@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tree_16_to_4_priority_encoder.srcs/sources_1/new/OR2.vhd" \
+"../../../../tree_16_to_4_priority_encoder.srcs/sources_1/new/choice.vhd" \
+"../../../../tree_16_to_4_priority_encoder.srcs/sources_1/new/improved_16_to_4_priority_encoder.vhd" \
+"../../../../tree_16_to_4_priority_encoder.srcs/sources_1/new/pr_encoder.vhd" \
+"../../../../tree_16_to_4_priority_encoder.srcs/sim_1/new/tb_16_to_4_tree.vhd" \
+
+# Do not sort compile order
+nosort

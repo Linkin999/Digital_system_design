@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pipelined_design_16_bit.srcs/sources_1/new/mul.vhd" \
+"../../../../pipelined_design_16_bit.srcs/sources_1/new/stage.vhd" \
+"../../../../pipelined_design_16_bit.srcs/sources_1/new/top_module.vhd" \
+"../../../../pipelined_design_16_bit.srcs/sim_1/new/test_pipeline.vhd" \
+
+# Do not sort compile order
+nosort

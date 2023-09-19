@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.sim/sim_1/impl/timing/xsim/tb_prencoder_16to4_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prencoder_16to4
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.srcs/sim_1/new/tb_prencoder_16to4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_prencoder_16to4'

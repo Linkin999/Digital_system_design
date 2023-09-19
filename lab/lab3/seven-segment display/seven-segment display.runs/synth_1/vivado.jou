@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 10 16:59:39 2023
+# Process ID: 9584
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.runs/synth_1
+# Command line: vivado.exe -log seven_segment_controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_segment_controller.tcl
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.runs/synth_1/seven_segment_controller.vds
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source seven_segment_controller.tcl -notrace

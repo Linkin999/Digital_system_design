@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 15 16:39:20 2023
+# Process ID: 27500
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/step_motor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24008 D:\Study in SUSTech\Second semester of junior year\Digital system design\lab\lab4\step_motor\step_motor.xpr
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/step_motor/vivado.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/step_motor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/step_motor/step_motor.xpr}
+update_compile_order -fileset sources_1

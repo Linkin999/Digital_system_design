@@ -1,0 +1,1 @@
+-wto "d8c4085871564f7696fe01cab1618bb3" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_sequence_recognition_behav" "xil_defaultlib.tb_sequence_recognition" -log "elaborate.log" 

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_prencoder_16to4_time_synth/xsimk.exe -simmode gui -wdb tb_prencoder_16to4_time_synth.wdb -simrunnum 0 -socket 53980
+Design successfully loaded
+Design Loading Memory Usage: 7412 KB (Peak: 7412 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 10776 KB (Peak: 10776 KB)
+Simulation CPU Usage: 218 ms

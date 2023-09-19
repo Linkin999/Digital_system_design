@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/anode_driver_unit_tb.vhd,1681060233,vhdl,,,,anode_driver_unit_tb,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/compute_current_anode_tb.vhd,1681056640,vhdl,,,,compute_current_anode_tb,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/hex_to_7_decoder_tb.vhd,1681047209,vhdl,,,,hex_to_7_decoder_tb,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/set_anodes_tb.vhd,1681057684,vhdl,,,,set_anodes_tb,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/seven_segment_controller_tb.vhd,1681066837,vhdl,,,,seven_segment_controller_tb,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/Anode_Driver_unit.vhd,1681058896,vhdl,,,,anode_driver_unit,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/MUX_8_1.vhd,1681063484,vhdl,,,,mux_8_1,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/Multiple_Hex_to_7_segment_display.vhd,1681064233,vhdl,,,,multiple_hex_to_7_segment_display,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/compute_current_anode.vhd,1681058444,vhdl,,,,compute_current_anode,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/frequency_divider.vhd,1681060732,vhdl,,,,frequency_divider,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/hex_to_7_decoder.vhd,1681044721,vhdl,,,,hex_to_7_decoder,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/set_anodes.vhd,1681058589,vhdl,,,,set_anodes,,,,,,,,
+D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sources_1/new/seven_segment_controller.vhd,1681065196,vhdl,,,,seven_segment_controller,,,,,,,,

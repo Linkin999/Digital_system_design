@@ -1,0 +1,7 @@
+Running: xsim.dir/compute_current_anode_behav/xsimk.exe -simmode gui -wdb compute_current_anode_behav.wdb -simrunnum 0 -socket 64186
+Design successfully loaded
+Design Loading Memory Usage: 7228 KB (Peak: 7228 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7748 KB (Peak: 7748 KB)
+Simulation CPU Usage: 46 ms

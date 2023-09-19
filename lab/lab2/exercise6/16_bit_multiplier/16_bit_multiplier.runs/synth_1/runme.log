@@ -1,0 +1,350 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 300
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/top.vhd:42]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'mul_n_bit' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:36' bound to instance 'module_inst' of component 'mul_n_bit' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/top.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'mul_n_bit' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:45]
+	Parameter W bound to: 16 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized1' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized1' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized3' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized3' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized5' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized5' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized7' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized7' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized9' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized9' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized11' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 7 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized11' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized13' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized13' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized15' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized15' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized17' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized17' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized19' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized19' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized21' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized21' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 13 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized23' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 13 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized23' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 14 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized25' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 14 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized25' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 15 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline_stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:37' bound to instance 'my_module_inst' of component 'pipeline_stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'pipeline_stage__parameterized27' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline_stage__parameterized27' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/pipeline_stage.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'mul_n_bit' (2#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/mul_n_bit.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'top' (3#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.srcs/sources_1/new/top.vhd:42]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 15    
++---Registers : 
+	               32 Bit    Registers := 15    
+	               16 Bit    Registers := 45    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top         | module_inst/my_modules_loop[3].my_module_inst/b_out_reg[4]    | 3      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[4].my_module_inst/b_out_reg[5]    | 4      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[5].my_module_inst/b_out_reg[6]    | 5      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[6].my_module_inst/b_out_reg[7]    | 6      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[7].my_module_inst/b_out_reg[8]    | 7      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[8].my_module_inst/b_out_reg[9]    | 8      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[9].my_module_inst/b_out_reg[10]   | 9      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[10].my_module_inst/b_out_reg[11]  | 10     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[11].my_module_inst/b_out_reg[12]  | 11     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[12].my_module_inst/b_out_reg[13]  | 12     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[13].my_module_inst/b_out_reg[14]  | 13     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[14].my_module_inst/b_out_reg[15]  | 14     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[11] | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[10] | 5      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[9]  | 6      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[8]  | 7      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[7]  | 8      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[6]  | 9      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[5]  | 10     | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[4]  | 11     | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[3]  | 12     | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[2]  | 13     | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[1]  | 14     | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | module_inst/my_modules_loop[15].my_module_inst/pp_out_reg[0]  | 15     | 1     | NO           | YES                | YES               | 1      | 0       | 
++------------+---------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    75|
+|3     |LUT1   |     1|
+|4     |LUT2   |    17|
+|5     |LUT3   |   224|
+|6     |LUT4   |    15|
+|7     |SRL16E |    24|
+|8     |FDCE   |    15|
+|9     |FDRE   |   524|
+|10    |IBUF   |    34|
+|11    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+--------------------------------+------+
+|      |Instance                                 |Module                          |Cells |
++------+-----------------------------------------+--------------------------------+------+
+|1     |top                                      |                                |   962|
+|2     |  module_inst                            |mul_n_bit                       |   895|
+|3     |    \my_modules_loop[10].my_module_inst  |pipeline_stage__parameterized17 |    57|
+|4     |    \my_modules_loop[11].my_module_inst  |pipeline_stage__parameterized19 |    57|
+|5     |    \my_modules_loop[12].my_module_inst  |pipeline_stage__parameterized21 |    57|
+|6     |    \my_modules_loop[13].my_module_inst  |pipeline_stage__parameterized23 |    57|
+|7     |    \my_modules_loop[14].my_module_inst  |pipeline_stage__parameterized25 |    71|
+|8     |    \my_modules_loop[15].my_module_inst  |pipeline_stage__parameterized27 |    49|
+|9     |    \my_modules_loop[1].my_module_inst   |pipeline_stage                  |    75|
+|10    |    \my_modules_loop[2].my_module_inst   |pipeline_stage__parameterized1  |    57|
+|11    |    \my_modules_loop[3].my_module_inst   |pipeline_stage__parameterized3  |    57|
+|12    |    \my_modules_loop[4].my_module_inst   |pipeline_stage__parameterized5  |    57|
+|13    |    \my_modules_loop[5].my_module_inst   |pipeline_stage__parameterized7  |    57|
+|14    |    \my_modules_loop[6].my_module_inst   |pipeline_stage__parameterized9  |    57|
+|15    |    \my_modules_loop[7].my_module_inst   |pipeline_stage__parameterized11 |    57|
+|16    |    \my_modules_loop[8].my_module_inst   |pipeline_stage__parameterized13 |    57|
+|17    |    \my_modules_loop[9].my_module_inst   |pipeline_stage__parameterized15 |    57|
++------+-----------------------------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1019.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1019.309 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1019.309 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1019.309 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1019.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1019.309 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May  8 21:48:30 2023...

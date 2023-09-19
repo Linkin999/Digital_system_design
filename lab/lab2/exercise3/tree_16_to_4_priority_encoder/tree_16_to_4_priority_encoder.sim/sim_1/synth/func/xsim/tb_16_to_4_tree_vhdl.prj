@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_16_to_4_tree_func_synth.vhd" \
+"../../../../../tree_16_to_4_priority_encoder.srcs/sim_1/new/tb_16_to_4_tree.vhd" \
+
+# Do not sort compile order
+nosort

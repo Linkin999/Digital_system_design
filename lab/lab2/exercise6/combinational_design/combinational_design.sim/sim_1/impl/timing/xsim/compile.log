@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/combinational_design/combinational_design.sim/sim_1/impl/timing/xsim/test_combinational_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combinational_design
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/combinational_design/combinational_design.srcs/sim_1/new/test_combinational.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_combinational'

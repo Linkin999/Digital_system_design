@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../three_digit decimal counter/three_digi decimal counter.srcs/sources_1/new/clk_demical_counter.vhd" \
+"../../../../../../three_digit decimal counter/three_digi decimal counter.srcs/sources_1/new/counter_new.vhd" \
+"../../../../../../three_digit decimal counter/three_digi decimal counter.srcs/sources_1/new/frequency_divider.vhd" \
+"../../../../../../three_digit decimal counter/three_digi decimal counter.srcs/sim_1/new/tb_clk_demical_counter.vhd" \
+
+# Do not sort compile order
+nosort

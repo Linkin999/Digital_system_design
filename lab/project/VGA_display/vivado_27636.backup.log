@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 15 17:17:45 2023
+# Process ID: 27636
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/project/VGA_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28652 D:\Study in SUSTech\Second semester of junior year\Digital system design\lab\project\VGA_display\VGA_display.xpr
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/project/VGA_display/vivado.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/project/VGA_display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/project/VGA_display/VGA_display.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/project/VGA_display'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/installation/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.672 ; gain = 0.000
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 15 19:41:31 2023...

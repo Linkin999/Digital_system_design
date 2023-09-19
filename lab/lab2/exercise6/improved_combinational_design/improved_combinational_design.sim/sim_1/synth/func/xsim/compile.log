@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/improved_combinational_design/improved_combinational_design.sim/sim_1/synth/func/xsim/test_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'improved_combinational_design'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/improved_combinational_design/improved_combinational_design.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'

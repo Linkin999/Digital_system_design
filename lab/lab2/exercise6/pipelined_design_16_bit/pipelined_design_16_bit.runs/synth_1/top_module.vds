@@ -1,0 +1,337 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  9 17:56:05 2023
+# Process ID: 1164
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.runs/synth_1/top_module.vds
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
+Command: synth_design -top top_module -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22732
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_module' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/top_module.vhd:42]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'mul' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:36' bound to instance 'inst' of component 'mul' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/top_module.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'mul' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:45]
+	Parameter W bound to: 16 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized1' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized1' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized3' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized3' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized5' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized5' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized7' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized7' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized9' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized9' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized11' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 7 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized11' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized13' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized13' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized15' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized15' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized17' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized17' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized19' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized19' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized21' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized21' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 13 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized23' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 13 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized23' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 14 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized25' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 14 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized25' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 15 - type: integer 
+INFO: [Synth 8-3491] module 'stage' declared at 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:36' bound to instance 'stage_inst' of component 'stage' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'stage__parameterized27' [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter STAGE bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stage__parameterized27' (1#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/stage.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'mul' (2#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/mul.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'top_module' (3#1) [D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.srcs/sources_1/new/top_module.vhd:42]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 15    
++---Registers : 
+	               32 Bit    Registers := 15    
+	               16 Bit    Registers := 30    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                     | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top_module  | inst/stage_loop[4].stage_inst/b_reg_reg[5]   | 4      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[5].stage_inst/b_reg_reg[6]   | 5      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[6].stage_inst/b_reg_reg[7]   | 6      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[7].stage_inst/b_reg_reg[8]   | 7      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[8].stage_inst/b_reg_reg[9]   | 8      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[9].stage_inst/b_reg_reg[10]  | 9      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[10].stage_inst/b_reg_reg[11] | 10     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[11].stage_inst/b_reg_reg[12] | 11     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[12].stage_inst/b_reg_reg[13] | 12     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[13].stage_inst/b_reg_reg[14] | 13     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[14].stage_inst/b_reg_reg[15] | 14     | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|top_module  | inst/stage_loop[15].stage_inst/pp_reg_reg[0] | 15     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    75|
+|3     |LUT2   |    40|
+|4     |LUT3   |   224|
+|5     |LUT4   |    15|
+|6     |SRL16E |    23|
+|7     |FDCE   |   528|
+|8     |FDRE   |    23|
+|9     |IBUF   |    34|
+|10    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------------+-----------------------+------+
+|      |Instance                        |Module                 |Cells |
++------+--------------------------------+-----------------------+------+
+|1     |top                             |                       |   995|
+|2     |  inst                          |mul                    |   928|
+|3     |    \stage_loop[10].stage_inst  |stage__parameterized17 |    57|
+|4     |    \stage_loop[11].stage_inst  |stage__parameterized19 |    57|
+|5     |    \stage_loop[12].stage_inst  |stage__parameterized21 |    57|
+|6     |    \stage_loop[13].stage_inst  |stage__parameterized23 |    69|
+|7     |    \stage_loop[14].stage_inst  |stage__parameterized25 |    69|
+|8     |    \stage_loop[15].stage_inst  |stage__parameterized27 |    48|
+|9     |    \stage_loop[1].stage_inst   |stage                  |    62|
+|10    |    \stage_loop[2].stage_inst   |stage__parameterized1  |    57|
+|11    |    \stage_loop[3].stage_inst   |stage__parameterized3  |    57|
+|12    |    \stage_loop[4].stage_inst   |stage__parameterized5  |    57|
+|13    |    \stage_loop[5].stage_inst   |stage__parameterized7  |    57|
+|14    |    \stage_loop[6].stage_inst   |stage__parameterized9  |    57|
+|15    |    \stage_loop[7].stage_inst   |stage__parameterized11 |    57|
+|16    |    \stage_loop[8].stage_inst   |stage__parameterized13 |    57|
+|17    |    \stage_loop[9].stage_inst   |stage__parameterized15 |    57|
++------+--------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.055 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1018.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1018.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1018.055 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/pipelined_design_16_bit/pipelined_design_16_bit.runs/synth_1/top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_module_utilization_synth.rpt -pb top_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May  9 17:56:29 2023...

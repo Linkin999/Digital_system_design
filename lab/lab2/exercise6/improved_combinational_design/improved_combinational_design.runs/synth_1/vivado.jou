@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  8 22:15:58 2023
+# Process ID: 23248
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/improved_combinational_design/improved_combinational_design.runs/synth_1
+# Command line: vivado.exe -log improved_combinational_design.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source improved_combinational_design.tcl
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/improved_combinational_design/improved_combinational_design.runs/synth_1/improved_combinational_design.vds
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/improved_combinational_design/improved_combinational_design.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source improved_combinational_design.tcl -notrace

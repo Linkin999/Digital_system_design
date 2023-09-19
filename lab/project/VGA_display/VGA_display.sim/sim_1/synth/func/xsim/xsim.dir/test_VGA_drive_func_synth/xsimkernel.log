@@ -1,0 +1,7 @@
+Running: xsim.dir/test_VGA_drive_func_synth/xsimk.exe -simmode gui -wdb test_VGA_drive_func_synth.wdb -simrunnum 0 -socket 59578
+Design successfully loaded
+Design Loading Memory Usage: 30096 KB (Peak: 30096 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 42272 KB (Peak: 42272 KB)
+Simulation CPU Usage: 364264 ms

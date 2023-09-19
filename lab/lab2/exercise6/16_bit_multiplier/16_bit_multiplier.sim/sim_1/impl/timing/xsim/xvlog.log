@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.sim/sim_1/impl/timing/xsim/combinational_design_test_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_n_bit
+INFO: [VRFC 10-311] analyzing module pipeline_stage
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized1
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized11
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized13
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized15
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized17
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized19
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized21
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized23
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized25
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized27
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized3
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized5
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized7
+INFO: [VRFC 10-311] analyzing module pipeline_stage__parameterized9
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,1 @@
+-wto "a36df8a5a868461c909b61681b92287d" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_prencoder_16to4_func_synth" "xil_defaultlib.tb_prencoder_16to4" -log "elaborate.log" 

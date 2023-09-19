@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 18 01:37:01 2023
+# Process ID: 26500
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.sim/sim_1/synth/func/xsim/xsim.dir/tb_prencoder_16to4_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/16-to-4_priority_encoder/16-to-4_priority_encoder.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Study -notrace
+couldn't read file "D:/Study": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 18 01:37:02 2023...

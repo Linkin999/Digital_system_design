@@ -1,0 +1,7 @@
+Running: xsim.dir/test_repetitive_time_impl/xsimk.exe -simmode gui -wdb test_repetitive_time_impl.wdb -simrunnum 0 -socket 60184
+Design successfully loaded
+Design Loading Memory Usage: 9372 KB (Peak: 9372 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 25700 KB (Peak: 25700 KB)
+Simulation CPU Usage: 36593 ms

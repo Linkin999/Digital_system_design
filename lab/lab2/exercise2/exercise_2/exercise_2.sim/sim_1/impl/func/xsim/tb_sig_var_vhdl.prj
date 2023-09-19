@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_sig_var_func_impl.vhd" \
+"../../../../../exercise_2.srcs/sim_1/new/tb_sig_var.vhd" \
+
+# Do not sort compile order
+nosort

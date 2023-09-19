@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  8 20:12:28 2023
+# Process ID: 17168
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.sim/sim_1/impl/func/xsim/xsim.dir/combinational_design_test_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise6/16_bit_multiplier/16_bit_multiplier.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Study -notrace

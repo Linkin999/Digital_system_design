@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../step_motor.srcs/sources_1/new/counter.vhd" \
+"../../../../step_motor.srcs/sources_1/new/key_down.vhd" \
+"../../../../step_motor.srcs/sources_1/new/key_up.vhd" \
+"../../../../step_motor.srcs/sources_1/new/step_motor.vhd" \
+"../../../../step_motor.srcs/sources_1/new/step_motor_top.vhd" \
+"../../../../step_motor.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 27 17:45:39 2023
+# Process ID: 14704
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise2/exercise_2/exercise_2.runs/impl_1
+# Command line: vivado.exe -log sig_var.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sig_var.tcl -notrace
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise2/exercise_2/exercise_2.runs/impl_1/sig_var.vdi
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise2/exercise_2/exercise_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sig_var.tcl -notrace

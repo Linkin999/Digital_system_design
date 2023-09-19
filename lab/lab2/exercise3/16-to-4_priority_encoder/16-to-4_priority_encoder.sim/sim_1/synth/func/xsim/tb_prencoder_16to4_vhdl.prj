@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_prencoder_16to4_func_synth.vhd" \
+"../../../../../16-to-4_priority_encoder.srcs/sim_1/new/tb_prencoder_16to4.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise4/three_digit decimal counter/three_digi decimal counter.sim/sim_1/synth/timing/xsim/tb_clk_demical_counter_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_demical_counter
+INFO: [VRFC 10-311] analyzing module counter_new
+INFO: [VRFC 10-311] analyzing module frequency_divider
+INFO: [VRFC 10-311] analyzing module glbl

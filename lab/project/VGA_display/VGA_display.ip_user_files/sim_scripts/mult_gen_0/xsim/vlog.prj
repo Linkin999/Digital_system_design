@@ -1,0 +1,6 @@
+sv xpm  \
+"D:/Vivado/installation/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

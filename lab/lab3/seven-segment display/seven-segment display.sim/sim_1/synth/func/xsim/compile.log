@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.sim/sim_1/synth/func/xsim/seven_segment_controller_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'compute_current_anode'
+INFO: [VRFC 10-3107] analyzing entity 'frequency_divider'
+INFO: [VRFC 10-3107] analyzing entity 'Anode_Driver_unit'
+INFO: [VRFC 10-3107] analyzing entity 'seven_segment_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab3/seven-segment display/seven-segment display.srcs/sim_1/new/seven_segment_controller_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'seven_segment_controller_tb'

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"combinational_design_test_func_synth.vhd" \
+"../../../../../16_bit_multiplier.srcs/sources_1/new/combinational_design.vhd" \
+"../../../../../16_bit_multiplier.srcs/sim_1/new/combinational_design_test.vhd" \
+
+# Do not sort compile order
+nosort

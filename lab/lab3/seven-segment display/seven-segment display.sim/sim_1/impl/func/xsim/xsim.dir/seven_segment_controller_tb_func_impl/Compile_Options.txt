@@ -1,0 +1,1 @@
+-wto "7148f4856c8c4300b22ae478a9c7c3e5" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "seven_segment_controller_tb_func_impl" "xil_defaultlib.seven_segment_controller_tb" -log "elaborate.log" 

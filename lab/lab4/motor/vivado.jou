@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 15 16:34:14 2023
+# Process ID: 19212
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22988 D:\Study in SUSTech\Second semester of junior year\Digital system design\lab\lab4\motor\motor.xpr
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/vivado.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.xpr}
+update_compile_order -fileset sources_1
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new
+file mkdir D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1
+file mkdir {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new}
+close [ open {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new/motor.xdc} w ]
+add_files -fileset constrs_1 {{D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.srcs/constrs_1/new/motor.xdc}}
+launch_simulation
+source motor_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.runs/impl_1/motor_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab4/motor/motor.runs/impl_1/motor_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 16 20:05:43 2023
+# Process ID: 18184
+# Current directory: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/tree_16_to_4_priority_encoder/tree_16_to_4_priority_encoder.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/tree_16_to_4_priority_encoder/tree_16_to_4_priority_encoder.sim/sim_1/behav/xsim/xsim.dir/tb_16_to_4_tree_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/tree_16_to_4_priority_encoder/tree_16_to_4_priority_encoder.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise3/tree_16_to_4_priority_encoder/tree_16_to_4_priority_encoder.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Study -notrace

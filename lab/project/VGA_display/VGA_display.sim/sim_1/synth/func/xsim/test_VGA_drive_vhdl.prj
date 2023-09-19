@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"test_VGA_drive_func_synth.vhd" \
+"../../../../../VGA_display.srcs/sim_1/new/test_VGA_drive.vhd" \
+
+# Do not sort compile order
+nosort

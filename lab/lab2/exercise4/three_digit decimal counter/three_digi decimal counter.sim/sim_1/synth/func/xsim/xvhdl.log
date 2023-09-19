@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Study in SUSTech/Second semester of junior year/Digital system design/lab/lab2/exercise4/three_digit decimal counter/three_digi decimal counter.sim/sim_1/synth/func/xsim/tb_clk_demical_counter_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_new'
+INFO: [VRFC 10-3107] analyzing entity 'frequency_divider'
+INFO: [VRFC 10-3107] analyzing entity 'clk_demical_counter'

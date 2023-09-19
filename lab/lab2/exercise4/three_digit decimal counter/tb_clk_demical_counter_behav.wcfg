@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_clk_demical_counter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_clk_demical_counter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1000000297350fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000310051fs"></ZoomEndTime>
+      <Cursor1Time time="1000000320000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_clk_demical_counter/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/load_tb" type="logic">
+      <obj_property name="ElementShortName">load_tb</obj_property>
+      <obj_property name="ObjectShortName">load_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/reset_global_tb" type="logic">
+      <obj_property name="ElementShortName">reset_global_tb</obj_property>
+      <obj_property name="ObjectShortName">reset_global_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/data1_tb" type="array">
+      <obj_property name="ElementShortName">data1_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data1_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/data10_tb" type="array">
+      <obj_property name="ElementShortName">data10_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data10_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/data100_tb" type="array">
+      <obj_property name="ElementShortName">data100_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data100_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/d1_tb" type="array">
+      <obj_property name="ElementShortName">d1_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d1_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/d10_tb" type="array">
+      <obj_property name="ElementShortName">d10_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d10_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/d100_tb" type="array">
+      <obj_property name="ElementShortName">d100_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d100_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clk_demical_counter/UUT/HA2/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+</wave_config>

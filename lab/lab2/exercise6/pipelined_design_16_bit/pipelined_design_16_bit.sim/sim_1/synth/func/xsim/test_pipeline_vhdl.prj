@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"test_pipeline_func_synth.vhd" \
+"../../../../../pipelined_design_16_bit.srcs/sim_1/new/test_pipeline.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_16_to_4_tree_func_impl/xsimk.exe -simmode gui -wdb tb_16_to_4_tree_func_impl.wdb -simrunnum 0 -socket 59521
+Design successfully loaded
+Design Loading Memory Usage: 7276 KB (Peak: 7276 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 10392 KB (Peak: 10392 KB)
+Simulation CPU Usage: 155 ms
